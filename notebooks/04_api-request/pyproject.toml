@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "04-api-request"
+version = "0.1.0"
+description = ""
+authors = ["BSP"]
+readme = "README.md"
+packages = [{include = "04_api_request"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+pandas = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

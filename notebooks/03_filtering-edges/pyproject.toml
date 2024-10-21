@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "03-filtering-edges-wip"
+version = "0.1.0"
+description = ""
+authors = ["BSP"]
+readme = "README.md"
+packages = [{include = "03_filtering_edges_wip"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+scikit-image = "^0.22.0"
+matplotlib = "^3.8.0"
+pillow = "^10.0.1"
+scipy = "^1.11.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
